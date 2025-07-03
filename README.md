@@ -30,15 +30,22 @@ A modern **real-time chat application** built using **Spring Boot**, **WebSocket
 | Messaging    | SockJS + STOMP              |
 
 ---
+## ⚙️ How It Works
 
-## 📷 Demo Screenshot
-
-The app displays chat bubbles with distinct colors for sender and receiver, timestamps beside each message, floating blue send button, and a beautiful heading for branding.
-
-> Left: View from John's side  
-> Right: View from Jenna's side  
+1. **User Enters Name** → Sends messages via WebSocket.
+2. **Messages Broadcast** using STOMP over SockJS.
+3. **UI Updates in Real-Time** with user-aligned message bubbles.
+4. **Server Maintains Connection** through Spring WebSocket configuration.
 
 ---
+
+## 🎯 Future Improvements
+
+- ✅ **User authentication and chat rooms**  
+- 🔔 **Notification support**
+- 💾 **Message persistence with a database**
+- 📱 **Full mobile responsiveness**
+
 
 
 
