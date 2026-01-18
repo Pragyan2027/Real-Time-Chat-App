@@ -1,6 +1,7 @@
 FROM eclipse-temurin:17-jdk
 
-WORKDIR /app
+WORKDIR /appgit push origin main
+
 
 COPY . .
 
